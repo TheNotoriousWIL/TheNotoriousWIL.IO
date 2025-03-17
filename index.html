@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html> 
+<! an angle bracket with an exclamation mark allows you to put in comments, meaning the computer doesnt read this line>
+<! comments are used to allow you to go describe parts of the code that may be complex or unclear>
+
+<head>   <! the head section provides details about the WHOLE page>
+<title>page 1: the home page</title>
+<! the style section within the head controls what the items on the page look like. Dont put comments in here because things will break.>
+<style>  
+.bgbanner {
+    position: relative;
+    top: 0;
+    left: 0;
+	object-fit:cover;}	
+
+.profilepic { 
+	position: absolute;
+    top: -95px;
+    left: 30px;
+	border-radius: 50%;
+	border: 10px solid;
+	border-color: #6489a5;}
+	
+body {background-color: #6489a5;}
+
+h1   {color: cyan;}
+
+p    {color: #6489a5 ; font-weight:bold;}
+	
+table {
+  border-style: solid;
+  border-color: #6489a5;}
+  
+</style>  <! the slash / before the word style means it is the end of that attribute>
+</head>  <! the / before the head means the section is finished>
+
+<body>  <! the body section is the actual items you will have on the page>
+
+<table width="100%"> <! the table attribute creates a table.>
+<tr width="100%"> <! tr means table row>
+<td width="100%"> <img class="Screenshot 2024-08-30 114216.png" align="center" src="images/Screenshot 2024-08-30 114216.png"  alt="This is a bg photo" style="width:100%;height:150px"></td> <! td means table data, it creates a new column>
+</tr> <!this ends the first row. The next tag creates a new row>
+<tr>
+<td width="35%" style="position:absolute" > <img class="profilepic" align="right" src="images/tribe-milhous-the-simpsons-usb-flash-drive-memory-stick-8-gb-pendrive-data-storage-flash-drive.jpg"  alt="This is a photo of me" height="170" width="200"></td>
+</tr>
+</table>
+
+<table style="width:100%" bgcolor="Blue" > <! This is the blue table>
+<tr>
+<td width="100%" height="120px" align="right" style="padding-right: 180px;vertical-align:middle"> <h1 style="color:black">Will's Artwork</td>
+</tr>
+</table>
+
+<br>
+
+<table style="width:100%" bgcolor="lime"> <! This is the green table>
+<tr id="top" style="text-align:center">                   
+<td width="33%"> <a href="My artwork.html"> <img src="images/My Artwork.png" alt="HOOOOME PAGE" height="175" width="250"></a></td>
+<td width="33%"> <a href="page 1.html"> <img src="images/" alt="Iron Maiden !!" height="61" width="327"></a></td>
+<td width="33%"> <a href="mypets.html"><h1 alt="Page 3">My Pets</a></td>
+</tr>
+</table>
+
+<br>
+
+<table style="width:100%" bgcolor="#7ea573" > <!This is the  table>
+<tr>
+<td width="50%" align="center"> <img id="#rcorners1" src="images/Screenshot 2024-08-21 190728.png" alt="This is a photo of moo oink quack" height="235" width="529"></td>
+<! you can also control individual elements within the page using the style attribute in line like below>
+<td width="50%" style="text-align:center;vertical-align:bottom"> <p style="color:grey"> This profile pic is a photo of the 2nd friendliest animal in the world. <br>Doesnt the little quokka look so cute!! <br> I think this emoji looks a bit like the quokka too.<br><p style="font-size:100px">&#128525</p>	
+<p style="color:black">Please navigate using the menu buttons at the top to have a look at my favourite band and my pets too!</p></td>
+</tr>
+</table>
+
+<br>
+
+<table style="width:100%" bgcolor="Fuchsia "> <!This is the bottom purple table>
+<tr>
+<td width="55%" style="text-align:right;padding-right: 20px">Follow me at:</a> </td>
+<td width="15%"><a>@instagramID</a></td>
+<td width="15%"><a>@twitterHandle</a></td>
+<td width="15%"><a>@snapchat</a></td>
+</tr>
+<table>
+
+</body>
+</html>
